@@ -1,0 +1,101 @@
+body{
+    background-color: rgba(80, 80, 80, 0.42);
+    
+}
+.allContainer{
+    border: solid;
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    margin-bottom: 45px;
+    border-radius: 10px;
+    background-color: aliceblue;
+}
+
+#hContainer{
+    border-bottom: solid;
+    text-align: center;
+    padding: 5%;
+    color: aliceblue;
+    background-color: rgb(17, 117, 83);
+    font-weight: bold;
+}
+
+
+.boxContainer{
+    display: flex;
+    justify-content: center;
+    padding: 7%;
+}
+
+.btnContainer{
+    font-size: 30px;
+    border: solid;
+    margin: 5px 10px;
+    width: 140px;
+    text-align: center;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0px 7px 10px black;
+    cursor: pointer;
+    transition: all 0.2s;
+    user-select: none;
+    background-color: aliceblue;
+}
+.btnContainer:hover{
+    background-color:  rgb(9, 60, 105);
+    color:aliceblue;
+}
+.btnContainer:active{
+    background-color: rgba(9, 60, 105, 0.446);
+    color: black;
+    box-shadow: none;
+}
+.btnContainer:focus{
+    background-color:  rgb(44, 81, 114);
+    color:aliceblue;
+}
+#submitArea{
+    display: flex;
+    justify-content: center;
+    margin: 15px auto 25px;
+    padding-bottom: 20px;
+}
+
+#submitBtn{
+    padding: 15px 40px;
+    font-size: 20px;
+    border-radius: 30px;
+    box-shadow: 0px 10px 10px black;
+    cursor: pointer;
+    transition: box-shadow 0.2s;
+}
+
+#submitBtn:active{
+    box-shadow: none;
+}
+#submitBtn:hover{
+    background-color:  rgb(63, 121, 183);
+    color:aliceblue;
+}
+
+
+#resultDisplay{
+    height: 150px;
+    border-bottom: solid;
+    text-align: center;
+    vertical-align: middle;
+    align-items: center;
+    font-size: 3.5em;
+    padding: 15px;
+    overflow-y: hidden;
+}
+#computerDisplay{
+    height: 50px;
+    border-bottom: solid;
+    text-align: center;
+    align-items: center;
+    font-size: 30px;
+    padding: 10px;
+}

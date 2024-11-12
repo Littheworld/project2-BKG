@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>document</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <div class="allContainer">
+        <div id="hContainer">GUNTING - BATU - KERTAS</div>
+
+        <div id="mainContainer">
+            <div class="boxContainer">
+                <button id="guntingBtn" class="btnContainer"  onclick="playerChoice = 'gunting'" >
+                    <p class="iconItem">✂</p>
+                    <p class="nameItem">gunting</p>
+                </button>
+
+                <button id="batuBtn" class="btnContainer" onclick="playerChoice = 'batu'">
+                    <p class="iconItem">🥌</p>
+                    <p class="nameItem">batu</p>
+                </button>
+
+                <button id="kertasBtn" class="btnContainer" onclick="playerChoice = 'kertas'" >
+                    <p class="iconItem">📝</p>
+                    <p class="nameItem">kertas</p>
+                </button>
+
+            </div>
+
+        </div>
+        
+        <div id="submitArea">
+            <button id="submitBtn" onclick="start(playerChoice)">start</button>
+        </div>
+
+    </div>
+    
+
+    <div class="allContainer">
+
+        <div id="computerDisplay">KOMPUTER MEMILIH:</div>
+        <div id="resultDisplay"></div>
+    </div>
+
+   
+
+    
+    <script src="A.js"></script>
+</body>
+</html>
